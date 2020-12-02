@@ -15,7 +15,7 @@ ln -s ~/retropie-custom/opt/retropie/configs/ports/chromium/emulators.cfg /opt/r
 echo "Map the chromium launchers..."
 
 for filename in ~/retropie-custom/RetroPie/roms/ports/*.sh; do
-	base=$(basename $filename)
+	base=$(basename "$filename")
 	echo "Mapping $base..."
-	ln -sf $filename ~/RetroPie/roms/ports/$base
+	ln -sf "$filename" ~/RetroPie/roms/ports/"$base"
 done
