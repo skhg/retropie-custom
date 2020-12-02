@@ -9,7 +9,8 @@ ln -s ~/retropie-custom/qjoypad3 ~/.qjoypad3
 
 echo "Map the chromium-browser configurations..."
 
-echo "TO DO..."
+rm /opt/retropie/configs/ports/chromium/emulators.cfg
+ln -s ~/retropie-custom/opt/retropie/configs/ports/chromium/emulators.cfg /opt/retropie/configs/ports/chromium/emulators.cfg
 
 echo "Map the chromium launchers..."
 
