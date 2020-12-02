@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -exo pipefail
+set -eo pipefail
 
 echo "Map the QJoyPad configurations..."
 
@@ -12,3 +12,9 @@ echo "Map the chromium-browser configurations..."
 echo "TO DO..."
 
 echo "Map the chromium launchers..."
+
+for filename in ~/retropie-custom/RetroPie/roms/ports/*.sh; do
+	base=$(basename $filename)
+	echo "Mapping $base..."
+	ln -sf $filename ~/RetroPie/roms/ports/$base
+done
