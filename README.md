@@ -38,3 +38,4 @@
 
 ## Steam Link setup
 1. Follow these [instructions](https://uk.pcmag.com/gallery/123035/how-to-use-a-raspberry-pi-and-steam-link-to-stream-pc-games-to-your-tv)
+1. Install Steam Link streaming on the host machine
