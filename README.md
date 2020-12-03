@@ -25,9 +25,6 @@
 1. Run `sudo raspi-config` and...
    1. Change GPU memory to 128MB
    1. Disable the splash screen on boot
-1. `git clone git@github.com:skhg/retropie-custom.git`
-1. `cd retropie-custom`
-1. `./setup.sh`
 
 ## RetroPie setup
 1. [Install RetroPie](https://retropie.org.uk/docs/Manual-Installation/#install-retropie)
@@ -36,8 +33,14 @@
 
 ## Chromium setup
 1. Run the Chromium ["Media Centre" script](https://blog.vpetkov.net/2020/03/30/raspberry-pi-netflix-one-line-easy-install-along-with-hulu-amazon-prime-disney-plus-hbo-spotify-pandora-and-many-others/)
-1. 
+1. Open `retropie_setup.sh` and select `Manage packages` > `Manage experimental packages` and install `chromium`.
 
 ## Steam Link setup
 1. Follow these [instructions](https://uk.pcmag.com/gallery/123035/how-to-use-a-raspberry-pi-and-steam-link-to-stream-pc-games-to-your-tv)
 1. Install Steam Link streaming on the host machine
+
+## Set up this repo
+1. `git clone git@github.com:skhg/retropie-custom.git`
+1. `cd retropie-custom`
+1. `./setup.sh`
+1. Restart EmulationStation
