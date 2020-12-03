@@ -1,5 +1,4 @@
 # retropie
-🎮 Setup a retro gaming system on the Raspberry Pi 3B+
 
 This repo is a collection of scripts to manage launchers for `chromium-browser` which run inside EmulationStation.
 
