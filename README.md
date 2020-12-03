@@ -1,6 +1,9 @@
 # retropie
 
-This repo is a collection of scripts to manage launchers for `chromium-browser` which run inside EmulationStation.
+This repo is:
+
+* Instructions for how to set up a [RetroPie](https://retropie.org.uk/) machine from scratch
+* A collection of scripts to manage launchers for ports such as `chromium-browser` which run inside [EmulationStation](https://emulationstation.org/)
 
 ## Hardware
 
@@ -26,6 +29,7 @@ This repo is a collection of scripts to manage launchers for `chromium-browser` 
 1. Run `sudo raspi-config` and...
    1. Change GPU memory to 128MB
    1. Disable the splash screen on boot
+1. Edit `/boot/config.txt` and set `hdmi_force_hotplug=1` - enables HDMI even if the connected TV is not yet switched on
 1. Install Rclone
    1. `curl https://rclone.org/install.sh | sudo bash`
    1. `rclone config`
