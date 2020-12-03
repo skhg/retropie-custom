@@ -26,7 +26,20 @@ This repo is a collection of scripts to manage launchers for `chromium-browser` 
 1. Run `sudo raspi-config` and...
    1. Change GPU memory to 128MB
    1. Disable the splash screen on boot
-1. Install Rclone with `curl https://rclone.org/install.sh | sudo bash`
+1. Install Rclone
+   1. `curl https://rclone.org/install.sh | sudo bash`
+   1. `rclone config`
+   1. Follow instructions at https://rclone.org/dropbox/
+      1. New Remote - `n`
+      1. Remote Name - `Dropbox`
+      1. Storage Type (Dropbox) - `9`
+      1. `client_id` blank
+      1. `client_secret` blank
+      1. Advanced config - `n`
+      1. Use auto config - `n` - Remote machine
+      1. Paste results from desktop command `rclone authorize "dropbox"`
+      1. Is this ok - `y`
+      1. Quit config - `q`
 
 ## RetroPie setup
 1. [Install RetroPie](https://retropie.org.uk/docs/Manual-Installation/#install-retropie)
