@@ -26,6 +26,7 @@ This repo is a collection of scripts to manage launchers for `chromium-browser` 
 1. Run `sudo raspi-config` and...
    1. Change GPU memory to 128MB
    1. Disable the splash screen on boot
+1. Install Rclone with `curl https://rclone.org/install.sh | sudo bash`
 
 ## RetroPie setup
 1. [Install RetroPie](https://retropie.org.uk/docs/Manual-Installation/#install-retropie)
