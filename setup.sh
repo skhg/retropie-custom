@@ -30,5 +30,5 @@ done
 
 echo "Set up scheduled jobs..."
 
-crontab -r
-(crontab -l 2>/dev/null; echo "$(cat ~/retropie-custom/cron/crontab)") | crontab -
+crontab -r || true
+(crontab -l 2>/dev/null; cat ~/retropie-custom/cron/crontab) | crontab -
