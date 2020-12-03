@@ -25,7 +25,9 @@
 1. Run `sudo raspi-config` and...
    1. Change GPU memory to 128MB
    1. Disable the splash screen on boot
-1. Clone this repo to the Raspberry Pi `TODO SETUP SCRIPT`
+1. `git clone git@github.com:skhg/retropie-custom.git`
+1. `cd retropie-custom`
+1. `./setup.sh`
 
 ## RetroPie setup
 1. [Install RetroPie](https://retropie.org.uk/docs/Manual-Installation/#install-retropie)
