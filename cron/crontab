@@ -1,1 +1,3 @@
-*/5 * * * * /path/to/job -my args
+*/10 * * * * rclone sync /home/pi/.qjoypad3/ Dropbox:server-backups/retropie/home/pi/.qjoypad3
+*/10 * * * * rclone sync /home/pi/RetroPie/ Dropbox:server-backups/retropie/home/pi/RetroPie
+*/10 * * * * rclone sync /opt/retropie/configs/all/emulationstation Dropbox:server-backups/retropie/opt/retropie/configs/all/emulationstation
