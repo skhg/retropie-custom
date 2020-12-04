@@ -4,6 +4,7 @@ This repo is:
 
 * Instructions for how to set up a [RetroPie](https://retropie.org.uk/) machine from scratch
 * A collection of scripts to manage launchers for ports such as `chromium-browser` which run inside [EmulationStation](https://emulationstation.org/)
+* `cron` configuration with `rclone` to automatically back up saved games and roms
 
 ## Hardware
 
