@@ -76,10 +76,35 @@ The `.lyt` layout scripts under `/qjoypad3` are preconfigured using the UI but a
 I found these layouts work quite well with my SNES-style controller:
 
 ### General browsing
-<p align="center"><img src="images/SNES_Controller_detailed.png"/><br/><i>Credit: <a href="https://commons.wikimedia.org/wiki/User:PJ">PJ</a>@Wikimedia, CC BY-SA 3.0</i><br/>1. test</p>
+<img align="right" src="images/SNES_Controller_detailed.png" width="50%"/>
+
+1. Mouse cursor
+2. F4
+3. Alt
+4. 
+5.
+6.
+7.
+8. Left-click
+9. Right-click
+
+### YouTube TV
+<img align="right" src="images/SNES_Controller_detailed.png" width="50%"/>
+
+1. Up/Down/Left/Right
+2. F4
+3. Alt
+4. 
+5.
+6.
+7.
+8.
+9.
 
 ## Launcher sequence 
 
 ## Site/App-specific configuration
 
 
+# References
+SNES Controller image credit: [PJ](https://commons.wikimedia.org/wiki/User:PJ) @ Wikimedia, CC BY-SA 3.0
