@@ -64,3 +64,22 @@ This repo is:
 1. `cd retropie-custom`
 1. `./setup.sh`
 1. Restart EmulationStation
+
+# About: How does the chromium-launcher work?
+
+EmulationStation has chromium installed as a port, as shown above in Chromium setup. Once Chromium starts, we need to be able to control it with a gamepad, meaning we also need configuration(s) for [QJoyPad](http://qjoypad.sourceforge.net/) which let us manipulate the cursor, and most importantly, to exit!
+
+## QJoyPad layouts
+
+The `.lyt` layout scripts under `/qjoypad3` are preconfigured using the UI but automatically deployed by `setup.sh`.
+
+I found these layouts work quite well with my SNES-style controller:
+
+### General browsing
+<p align="center"><img src="images/SNES_Controller_detailed.png"/><br/><i>Credit: <a href="https://commons.wikimedia.org/wiki/User:PJ">PJ</a>@Wikimedia, CC BY-SA 3.0</i><br/>1. test</p>
+
+## Launcher sequence 
+
+## Site/App-specific configuration
+
+
