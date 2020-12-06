@@ -98,9 +98,9 @@ I found these layouts work quite well with my SNES-style controller:
 1. ⬆️ ⬇️ ⬅️ ➡️
 2. F4
 3. Alt
-4. 
-5.
-6.
+4. Spacebar
+5. ⏎
+6. Esc
 7.
 8.
 9.
