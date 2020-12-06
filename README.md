@@ -87,15 +87,15 @@ I found these layouts work quite well with my SNES-style controller:
 3. Alt
 4. 
 5.
-6.
-7.
+6. ⬇️
+7. ⬆️
 8. Left-click
 9. Right-click
 
 ### YouTube TV (Designed for gamepad use)
 <img align="right" src="images/SNES_Controller_detailed.png" width="50%"/>
 
-1. Up/Down/Left/Right
+1. ⬆️ ⬇️ ⬅️ ➡️
 2. F4
 3. Alt
 4. 
