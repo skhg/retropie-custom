@@ -85,8 +85,8 @@ I found these layouts work quite well with my SNES-style controller:
 1. Mouse cursor
 2. F4
 3. Alt
-4. 
-5.
+4. Tab
+5. ⏎
 6. ⬇️
 7. ⬆️
 8. Left-click
