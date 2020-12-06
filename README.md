@@ -12,6 +12,7 @@ This repo is:
 * [Raspberry Pi tall case](https://www.amazon.de/-/en/gp/product/B017SZ3T66/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1)
 * [32GB microSD card](https://www.amazon.de/-/en/gp/product/B06XYHN68L/ref=ppx_yo_dt_b_asin_title_o02_s01?ie=UTF8&psc=1)
 * Right-angle [HDMI cable](https://www.amazon.de/-/en/gp/product/B076YB79DL/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1)
+* Right-angle [USB Cable](https://www.amazon.de/-/en/gp/product/B07NSQ5859/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1)
 * SNES-style [gamepads](https://www.amazon.de/-/en/gp/product/B01N59IUV5/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1)
 * Apple [Magic Keyboard](https://www.apple.com/shop/product/MRMH2LL/A/magic-keyboard-with-numeric-keypad-us-english-space-gray)
 * Apple [Magic Trackpad](https://www.apple.com/shop/product/MRMF2LL/A/magic-trackpad-2-space-gray)
@@ -30,7 +31,10 @@ This repo is:
 1. Run `sudo raspi-config` and...
    1. Change GPU memory to 128MB
    1. Disable the splash screen on boot
-1. Edit `/boot/config.txt` and set `hdmi_force_hotplug=1` - enables HDMI even if the connected TV is not yet switched on
+1. Edit `/boot/config.txt` and set:
+   1. `hdmi_force_hotplug=1` - enables HDMI even if the connected TV is not yet switched on
+   1. `hmdi_group=1` - Set CEC HDMI group
+   1. `hdmi_mode=16` - Set HDMI default resolution on boot to 1920x1080 @ 60Hz
 1. Install Rclone
    1. `curl https://rclone.org/install.sh | sudo bash`
    1. `rclone config`
