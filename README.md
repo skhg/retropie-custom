@@ -17,7 +17,7 @@ This repo is:
 * Apple [Magic Keyboard](https://www.apple.com/shop/product/MRMH2LL/A/magic-keyboard-with-numeric-keypad-us-english-space-gray)
 * Apple [Magic Trackpad](https://www.apple.com/shop/product/MRMF2LL/A/magic-trackpad-2-space-gray)
 
-## System setup
+## 1. System setup
 
 1. Download and install the Raspberry Pi [Imager](https://www.raspberrypi.org/software/)
 1. Use this to flash the microSD card
@@ -50,20 +50,20 @@ This repo is:
       1. Is this ok - `y`
       1. Quit config - `q`
 
-## RetroPie setup
+## 2. RetroPie setup
 1. [Install RetroPie](https://retropie.org.uk/docs/Manual-Installation/#install-retropie)
 1. Configure to boot into EmulationStation
 1. Install [RetroPie-Extra](https://github.com/zerojay/RetroPie-Extra)
 
-## Chromium setup
+## 3. Chromium setup
 1. Run the Chromium ["Media Centre" script](https://blog.vpetkov.net/2020/03/30/raspberry-pi-netflix-one-line-easy-install-along-with-hulu-amazon-prime-disney-plus-hbo-spotify-pandora-and-many-others/)
 1. Open `retropie_setup.sh` and select `Manage packages` > `Manage experimental packages` and install `chromium`.
 
-## Steam Link setup
+## 4. Steam Link setup
 1. Follow these [instructions](https://uk.pcmag.com/gallery/123035/how-to-use-a-raspberry-pi-and-steam-link-to-stream-pc-games-to-your-tv)
 1. Install Steam Link streaming on the host machine
 
-## Set up this repo
+## 5. Set up this repo
 1. `git clone git@github.com:skhg/retropie-custom.git`
 1. `cd retropie-custom`
 1. `./setup.sh`
