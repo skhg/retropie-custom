@@ -69,13 +69,13 @@ This repo is:
 1. `./setup.sh`
 1. Restart EmulationStation
 
-# About: How does the chromium-launcher work?
+# About
 
 EmulationStation has chromium installed as a port, as shown above in Chromium setup. Once Chromium starts, we need to be able to control it with a gamepad, meaning we also need configuration(s) for [QJoyPad](http://qjoypad.sourceforge.net/) which let us manipulate the cursor, and most importantly, to exit!
 
-## QJoyPad layouts
+## QJoyPad controller layouts
 
-The `.lyt` layout scripts under `/qjoypad3` are preconfigured using the UI but automatically deployed by `setup.sh`.
+The `.lyt` layout scripts under `/qjoypad3` are automatically deployed by `setup.sh`. They can be edited or new ones can be configured, using the QJoyPad UI.
 
 I found these layouts work quite well with my SNES-style controller:
 
