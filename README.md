@@ -49,6 +49,13 @@ This repo is:
       1. Paste results from desktop command `rclone authorize "dropbox"`
       1. Is this ok - `y`
       1. Quit config - `q`
+1. Set up Papertrail logging
+   1. Get setup script from https://papertrailapp.com/systems/setup?type=system&platform=unix and run for system logs
+   1. Visit https://github.com/papertrail/remote_syslog2/releases/latest and copy the link for the `armhf.deb` installer
+   1. `wget <armhf.deb URL>`
+   1. `sudo dpkg -i downloaded_file_armhf.deb`
+   1. TODO CONFIG FILE
+   1. `sudo remote_syslog`
 
 ## 2. RetroPie setup
 1. [Install RetroPie](https://retropie.org.uk/docs/Manual-Installation/#install-retropie)
