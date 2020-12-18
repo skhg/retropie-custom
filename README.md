@@ -26,6 +26,8 @@ This repo is:
 1. Add WiFi config as specified [here](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md)
 1. Insert microSD and run first boot
 1. Change user `pi` password
+1. `sudo apt-get update`
+1. `sudo apt-get full-upgrade`
 1. `sudo apt-get install vim`
 1. Copy SSH key to `~/.ssh/authorized_keys`
 1. Run `sudo raspi-config` and...
