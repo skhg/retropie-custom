@@ -1,0 +1,10 @@
+files:
+  - /dev/shm/runcommand.log
+  - /dev/shm/runcommand.info
+  - /home/pi/.emulationstation/es_log.txt
+destination:
+  host: logs.papertrailapp.com
+  port: <PORT-NUMBER>
+  protocol: tls
+exclude_patterns:
+  - don't log on me
