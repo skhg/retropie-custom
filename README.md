@@ -58,7 +58,7 @@ This repo is:
    1. Visit https://github.com/papertrail/remote_syslog2/releases/latest and copy the link for the `armhf.deb` installer
    1. `wget <armhf.deb URL>`
    1. `sudo dpkg -i downloaded_file_armhf.deb`
-   1. TODO CONFIG FILE
+   1. Copy the configuration file from this repo's [log_files.yml](/papertrail/log_files.yml) to `/etc/log_files.yml`
    1. `sudo remote_syslog`
 
 ## 2. RetroPie setup
