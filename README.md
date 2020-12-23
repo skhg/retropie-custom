@@ -29,7 +29,9 @@ This repo is:
 1. `sudo apt-get update`
 1. `sudo apt-get full-upgrade`
 1. `sudo apt-get install vim`
-1. Copy SSH key to `~/.ssh/authorized_keys`
+1. Set up SSH key-based login
+   1. Copy my SSH public key from my laptop at `~/.ssh/id_rsa.pub` to `~/.ssh/authorized_keys` on the Raspberry Pi
+   1. Set `PasswordAuthentication no` in `/etc/ssh/sshd_config` to ensure only key-based login is allowed.
 1. Run `sudo raspi-config` and...
    1. Change GPU memory to 128MB
    1. Disable the splash screen on boot
