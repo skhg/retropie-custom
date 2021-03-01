@@ -6,7 +6,7 @@ echo "Starting chromium-browser with configuration: \"$1\"..."
 
 echo "Configuring chromium-browser dependencies..."
 
-sudo apt-get -y install xserver-xorg-legacy qjoypad unclutter 
+sudo apt-get -y install xserver-xorg-legacy qjoypad unclutter
 
 echo "Configuring chromium launcher..."
 
