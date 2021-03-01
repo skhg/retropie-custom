@@ -5,7 +5,7 @@ set -eo pipefail
 echo "Map the QJoyPad configurations..."
 
 rm -rf ~/.qjoypad3
-ln -s ~/retropie-custom/qjoypad3 ~/.qjoypad3
+ln -s ~/retropie-custom/qjoypad3/layouts ~/.qjoypad3
 
 echo "Map the chromium-browser configurations..."
 
