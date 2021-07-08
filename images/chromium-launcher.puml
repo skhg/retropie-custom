@@ -1,0 +1,16 @@
+@startuml
+
+title "chromium-launcher sequence"
+
+actor User
+boundary EmulationStation
+control "Shopping Cart" as SC
+entity Widget
+database Widgets
+
+User -> EmulationStation : To boundary
+GUI -> SC : To control
+SC -> Widget : To entity
+Widget -> Widgets : To database
+
+@enduml
